@@ -92,6 +92,8 @@ If the mapping is defined outside the code, with xml, yaml or php configuration,
 
 1. Create a `tests/object-manager.php` file which will expose your doctrine config. Here is an example:
 ```php
+<?php
+
 use App\Kernel;
 use Symfony\Component\Dotenv\Dotenv;
 
